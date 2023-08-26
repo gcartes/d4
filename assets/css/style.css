@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h4, h5, h6, p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+nav{
+    background-color:#28A745;
+    color: white;
+}
+nav a img{
+    width: 86px;
+    height: 25px;
+}
+
+nav .navbar-collapse{
+    justify-content: right;
+}
+
+.card .direccion{
+    display: flex;
+    font-size: 13px;
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.card .price{
+    display: flex;
+    justify-content: end;
+}
+
+.card .price h3{
+    color: #28A745;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.card .price h5{
+    color: #707070;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+form{
+    background-color: #28A745;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+}
+footer img{
+    width: 86px;
+    height: 25px;
+}
+footer p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #707070;
+
+}
+
+.card{
+    width: 280px;
+}
+.card-img-top{
+    width: 278px;
+    height: 180px;
+}
+
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #212529;
+}
+
+.card-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
+.direccion p{
+    padding-left: 5px;
+}
+
+.titulo_form{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+.form-control{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #707070;
+}
